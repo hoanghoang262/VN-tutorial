@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Source/css/grid.css">
+    <link rel="stylesheet" href="./Source/css/main.css">
+    <link rel="stylesheet" href="./Source/css/base.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Source/Font Awesome/fontawesome-free-5.15.3-web/css/all.css">
+    <title>VN tutorial</title>
+</head>
+<body>
+    <div class="grid container">
+        <input type="checkbox" class="nar_sign_up" name="" id="nar_model_sign_up" style="display:none">
+        <input type="checkbox" class="nar_sign_in" name="" id="nar_model_sign_in" style="display:none">
+        <input type="checkbox" class="nar_mobile" name="" id="nar_mobile_check" style="display:none">
+        <!-- header -->
+        <div class="header" style="position:relative;">
+            <!-- Narbar list-->
+            <div style="background-color:#09b3a4;;">
+                <div class="grid wide narbar">   
+                    <ul class="narbar_list">
+                        <li class="narbar_item">
+                            <a class="narbar_link" href=""><i class="fas fa-home"></i> HOME</a>
+                        </li>
+                        <li class="narbar_item">
+                            <a class="narbar_link" href="">TRAVEL</a>
+                        </li>
+                        <li class="narbar_item">
+                            <a class="narbar_link" href="">CONTACT</a>                         
+                        </li>
+                    </ul>
+                    <ul class="narbar_list">
+                        <li class="narbar_item">
+                            <label style="padding: 8px;margin-right: -4px;cursor:pointer;" for="nar_model_sign_up">SIGN UP</label>                     
+                        </li>
+                        <li class="narbar_item">
+                            <label style="padding: 8px;margin-right: -4px;cursor:pointer;" for="nar_model_sign_in">SIGN IN</label>                         
+                        </li>
+                        <li class="narbar_item">
+                            <a class="narbar_link" href="">HELP</a>                         
+                        </li>
+                    </ul>
+                    <label for="nar_mobile_check" class="narbar-button"><i class="fas fa-bars"></i></label>
+                </div>
+            </div>
+            <!-- Narbar img -->
+            <div class="narbar_img">
+                <img class="header_img" src="./Source/photo/lodging.png" alt="header_img">
+            </div> 
+            <div class="grid wide">
+                <div class="header_title">
+                    <h1 Style="font-size: 240%;">WELLCOME TO VIET NAM</h1>
+                    <p style="font-size:120%;margin-top:-12px">Du lịch vòng quay việt nam với hàng trăm điểm đến thú vị.</p>
+                </div>
+            </div>   
+        </div>
+        <!-- body contain main subject -->
+        <div class="grid wide body">
+            <h2>Đi bất cứ đâu bạn muốn</h2>
+            <p style="margin-top:-9px">Nâng cao sức khỏe, cân bằng cuộc sống</p>
+            <div class="row">
+                <div class="col l-3 m-6 p-6" style="position:relative;">
+                    <img class="group1_img" src="./Source/photo/mood_1-4.png" alt="">
+                    <div class="group1_title" style="position: absolute;">
+                        <h2>Lãng mạn</h2>
+                        <p id="p_gr1">ĐI khắp thế gian,yêu thương ngập tràn</p>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 p-6" style="position:relative;">
+                    <img class="group1_img" src="./Source/photo/chon-4.jpg" alt="">
+                    <div class="group1_title" style="position: absolute;">
+                        <h2>Khỏe mạnh</h2>
+                        <p id="p_gr1">Bước ra ánh sáng tăng sức đề kháng</p >
+                    </div>
+                </div>
+                <div class="col l-3 m-6 p-6" style="position:relative;">
+                    <img class="group1_img" src="./Source/photo/chon-5.jpeg" alt="">
+                    <div class="group1_title" style="position: absolute;">
+                        <h2>Kết nối</h2>
+                        <p id="p_gr1">Khoảng khắc kết nối gia đình và tình bạn</p>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 p-6" style="position:relative;">
+                    <img class="group1_img" src="./Source/photo/hop_qua.png" alt="">
+                    <div class="group1_title" style="position: absolute;">
+                        <h2>Gift</h2>
+                        <p id="p_gr1">Đón nhận những món quà của cuộc sống</p>
+                    </div>
+                </div>
+            </div> 
+            <h2>Những điểm du lịch nổi tiếng việt nam</h2>
+            <p style="margin-top:-9px">Lên rừng xuống biển.Trọn vẹn việt nam</p>
+            <div class="row" style="border-bottom: 2px solid black;padding-bottom:20px;">
+                <div class="row col l-8 m-12">
+                    <div class="col l-12">
+                        <a class="link_location" href="./child_web/phu_quoc_page/phu_quoc_index.html">
+                            <img style="width:100%;margin-bottom:9px;" class="photo_location" src="./Source/photo/phuquoc-755x190.jpg" alt="" >
+                            <h2 class="link_location--h2">Phú Quốc</h2>
+                        </a>
+                    </div>
+                    <div class="col l-6 m-6 p-12">
+                        <a class="link_location" href="">
+                            <img class="photo_location" src="./Source/photo/nhatrang_1-370x190.jpg" alt="">
+                            <h2 class="link_location--h2">Nha Trang</h2>
+                        </a>
+                    </div>
+                    <div class="col l-6 m-6 p-12">
+                        <a class="link_location" href="">
+                            <img class="photo_location" src="./Source/photo/quynhon_2-370x190.jpg" alt="">
+                            <h2 class="link_location--h2">Quy Nhơn</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col l-4 m-12 p-12">
+                    <a class="link_location" href="">
+                        <img class="photo_location" src="./Source/photo/vungtau_2-370x395.jpg" alt="">
+                        <h2 class="link_location--h2">Vũng Tàu</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="grid wide footer">
+            <div class="row">
+                <div class="footer_item col l-4">
+                    <h2>Tham khảo thêm tại</h2>
+                    <ul class="footer_list">
+                        <li>
+                            <a class="link-extra-info" href="">Tạp trí du lịch</a>
+                        </li>
+                        <li>
+                            <a class="link-extra-info" href="">Cẩm nang du lịch</a>
+                        </li>
+                        <li>
+                            <a class="link-extra-info" href="">Kinh nghiệm du kịch</a>
+                        </li>
+                    </ul>                    
+                </div>
+                <div class="footer_item col l-4">
+                    <h2>Web đăng kí du lịch</h2>
+                    <ul class="footer_list">
+                        <li><a class="link-extra-info" href="https://transviet.com.vn/">Transviet.com</a></li>
+                        <li><a class="link-extra-info" href="https://dulichviet.com.vn/">Dulichviet.com</a></li>
+                        <li><a class="link-extra-info" href="https://www.vietravel.com/">Viettravel.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer_item footer_link_web col l-4">
+                    <h2>Cộng đồng</h2>
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f">acebook</i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Tao bar_mobile-->
+        <div class="nar_mobile_block">
+            <div class="nar_mobile_layout"></div>
+            <div class="nar_mobile_form">
+                <label class="nar_mobile_model_exit" for="nar_mobile_check">
+                    <i class="fas fa-times" style="padding:12px;"></i>
+                </label>
+                <ul class="nar_mobile_list">
+                    <li class="nar_mobile_item">
+                        <a class="nar_mobile_link" href=""><i class="fas fa-home"></i> HOME</a>
+                    </li>
+                    <li class="nar_mobile_item">
+                        <a class="nar_mobile_link" href="">TRAVEL</a>
+                    </li>
+                    <li class="nar_mobile_item">
+                        <a class="nar_mobile_link" href="">CONTACT</a>                         
+                    </li>
+                    <li class="nar_mobile_item">
+                        <label style="padding: 8px;margin-right: -4px;cursor:pointer;" for="nar_model_sign_up">SIGN UP</label>                     
+                    </li>
+                    <li class="nar_mobile_item">
+                        <label style="padding: 8px;margin-right: -4px;cursor:pointer;" for="nar_model_sign_in">SIGN IN</label>                          
+                    </li>
+                    <li class="nar_mobile_item">
+                        <a class="nar_mobile_link" href="">HELP</a>                         
+                    </li>
+                </ul>
+                
+            </div>
+            
+        </div>
+        <!-- Tạo modal sign up  -->
+        <div  class="modal">
+            <div class="modal_layout"></div>
+            <div class="auth-form">
+                <div class="auth-form-centre">
+                    <div style="margin: 0 40px;" class="auth-form__margin">
+                        <div class="auth-form__header">
+                            <p style="font-weight:700;padding-right:120px;font-size:20px;">Đăng ký</p>
+                            <p style="color:red;margin-top:20px;">Đăng nhập</p >
+                        </div>
+                        <div class="auth-form__body">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn:">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn:">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu:">
+                        </div>
+                        <div class="auth-form__notification">
+                            <p>Bằng việc đăng kí bạn đã đồng ý với điều khoản về <a class="auth-form__link-notification" href="">Điều khoản dịch vụ</a> và <a class="auth-form__link-notification" href="">Chính sách bảo mật</a> của chúng tôi</p>
+                        </div>
+                        <div class="auth-form__button">
+                            <button class="auth-form__button-item">Trở lại</button>
+                            <button style="background-color:red;" class="auth-form__button-item">Đăng kí</button>
+                        </div>
+                    </div>
+                    <div class="auth-form__link">
+                        <div class="auth-form__link--item facebook">
+                            <i class="fab fa-facebook font_sign_up"></i>
+                            <a class="link_sign_up" href="">Kết nối với facebook</a>
+                        </div>
+                        <div class="auth-form__link--item google">
+                            <i class="fab fa-google font_sign_up"></i>
+                            <a class="link_sign_up" href="">Kết nối với google</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <label class="sign_up_model_exit" for="nar_model_sign_up">
+                <i class="fas fa-times" style="padding:12px;"></i>
+            </label>
+        </div>
+        <!-- Tạo modal sign in  -->
+        <div  class="modal_sign_in">
+            <div class="modal_layout"></div>
+            <div class="auth-form">
+                <div class="auth-form-centre-sign-in">
+                    <div style="margin: 0 40px;" class="auth-form__margin">
+                        <div class="auth-form__header">
+                            <p style="font-weight:700;padding-right:120px;font-size:20px;">Đăng nhập</p>
+                            <p style="color:red;margin-top:20px;">Đăng kí</p >
+                        </div>
+                        <div class="auth-form__body">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn:">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn:">
+                        </div>
+                        <div class="auth-form__button">
+                            <button class="auth-form__button-item">Trở lại</button>
+                            <button style="background-color:red;" class="auth-form__button-item">Đăng kí</button>
+                        </div>
+                    </div>
+                    <div class="auth-form__link">
+                        <div class="auth-form__link--item facebook">
+                            <i class="fab fa-facebook font_sign_in"></i>
+                            <a class="link_sign_in" href="">Đăng nhập bằng facebook</a>
+                        </div>
+                        <div class="auth-form__link--item google">
+                            <i class="fab fa-google font_sign_in"></i>
+                            <a class="link_sign_in" href="">Đăng nhập bằng google</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <label class="sign_in_model_exit" for="nar_model_sign_in">
+                <i class="fas fa-times" style="padding:12px;"></i>
+            </label>
+        </div>
+        <div class="back_to_top">
+            <a href="#"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </div>
+</body>
+</html>
