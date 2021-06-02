@@ -32,14 +32,40 @@
     color:white;
 }
 
-.header_img{
-    width:100%;
-    opacity: 0.9;
+
+/* css for main body info */
+.header_title>h2>span{
+    color: red;
+}
+.header_title,.introduce_info > h2 {
+    font-size: 25px;
+}
+    /*Selector_table*/
+
+.selector_item{
+    padding: 0 2%;
 }
 
-.header_title{
-    position:absolute;
-    top:89px;
+.selector_item--container{
+    text-align: center;
+    border-radius: 13px;
+    border: 1px solid black;
+    padding:10px;
+}    
+
+.selector_link{
+    text-decoration: none;
+    color: black;
+    font-size:15px;
+    font-weight:500;
+}
+    /*photo table*/
+img{
+    width: 100%;
+}     
+.selector_item--container:hover{
+    background-color:rgb(155, 146, 146);
+    cursor: pointer;
 }
 
 /* css for main body info */
